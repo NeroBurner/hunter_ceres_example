@@ -20,6 +20,7 @@ cmake --build _build
 ```
 
 On MSVC the generator expression must be specified as well.
+See https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#visual-studio-generators for options.
 
 ```
 cmake -H. -B_build -G "Visual Studio 15 2017 Win64" -DHUNTER_CERES_WITH_SUITESPARSE=ON
